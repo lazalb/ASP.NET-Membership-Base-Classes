@@ -1,4 +1,4 @@
-ASP.NET-Membership-Base-Classes
+ASP.NET Membership Base Classes
 ===============================
 
 Abstract base classes for System.Web.Security MembershipProvider, MembershipUser &amp; RoleProvider - implements all those useless abstract properties and methods, 
