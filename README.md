@@ -12,8 +12,7 @@ from this class and override the methods / properties you wish to implement.
 
 Register your implementation in web.config, for example:
 
-``
-	<configuration>
+	<configuratio>
 		...
 		<system.web>
 			...
@@ -24,8 +23,7 @@ Register your implementation in web.config, for example:
 			</providers>
 			</membership>
 		</system.web>
-	</configuration>	
-``
+	</configuration>
 
 It's functionality is not called automatically by ASP.Net MVC, it is accessible via the static methods and properties on System.Web.Security.Membership.
 
@@ -44,7 +42,6 @@ from this class and override the methods / properties you wish to implement.
 
 Register your implementation in web.config, for example:
 
-``
 	<configuration>
 		...
 		<system.web>
@@ -56,8 +53,7 @@ Register your implementation in web.config, for example:
 				</providers>
 			</roleManager>
 		</system.web>
-	</configuration>	
-```
+	</configuration>
 
 Once registered, it is accessible through the static methods and properties on System.Web.Security.Roles.
 
