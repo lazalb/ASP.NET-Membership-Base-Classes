@@ -30,7 +30,7 @@ It's functionality is not called automatically by ASP.Net MVC, it is accessible 
 ### Requirements for MembershipPasswordAttribute
 
 If you want to make use of the System.Web.Security.MembershipPasswordAttribute for passwords in model validation, you should implement the
-MinRequiredPasswordLength, MinRequiredNonAlphanumericCharacters and PasswordStrengthRegularExpression properties.
+`MinRequiredPasswordLength`, `MinRequiredNonAlphanumericCharacters` and `PasswordStrengthRegularExpression` properties.
 
 MembershipUserBase
 ------------------
