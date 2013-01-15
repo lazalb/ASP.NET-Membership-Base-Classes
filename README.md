@@ -27,6 +27,9 @@ Register your implementation in web.config, for example:
 
 It's functionality is not called automatically by ASP.Net MVC, it is accessible via the static methods and properties on System.Web.Security.Membership.
 
+If you want to make use of the System.Web.Security.MembershipPasswordAttribute for passwords in model validation, you should implement the
+MinRequiredPasswordLength, MinRequiredNonAlphanumericCharacters and PasswordStrengthRegularExpression properties.
+
 MembershipUserBase
 ------------------
 
